@@ -1,0 +1,277 @@
+
+header{
+    background: #FABE81;
+    padding: 20px;
+}
+
+li{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.nav-link{
+    color: #760606;
+}
+
+.nav-link:hover {
+    color: #BD4931;
+    transition: color .3s;
+}
+
+body{
+    background-image: url(../images/background.png);
+    background-size: 100%;
+    
+}
+
+section {
+    color: #FABE81;
+  
+}
+
+.sobree{
+    font-size: 1.05rem;
+    color: #FABE81;
+    border-radius: 5px;
+}
+
+
+.imgsobre{
+    width: 100%;
+    border: solid 5px;
+    border-radius: 3%;
+    
+}
+
+.imgsobre:hover{
+    border: solid 7px;
+    border-radius: 3%;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+}
+
+.card {
+    color: #760606;
+    background: #FABE81;
+    border-radius: 2%;
+    width: 32%;
+    float: left;
+    margin: 6px;
+    
+}
+
+.img1{
+    padding: 5px;
+
+}
+
+.sec1, .sec2 {
+   padding-top: 5rem;
+   padding-bottom: 4.5rem;
+   margin-bottom: 3rem;
+   margin-top: 2rem;
+}
+
+.sec2{
+    margin-top: 15rem;
+}
+
+
+.modal-header {
+    border-bottom: solid 2px #FABE81;
+    background: #956637;
+    color: #FABE81;
+}
+
+.modal-footer{
+    border-top: solid 2px #FABE81;
+    background: #956637;
+    color: #FABE81;
+}
+
+.modal-body table, thead{
+    border-bottom: solid 2px #FABE81;
+    color: #FABE81;
+    
+}
+
+thead{
+    border-bottom: solid 2px #FABE81;
+}
+
+
+tbody tr:nth-child(odd){
+    background: #4D3216;
+}
+
+tbody tr:hover{
+    background-color: #744E28;
+    transition: background .3s;
+    
+}
+
+.modal-body table{
+    background: #5D3D1D;
+    color: #FABE81;
+}
+
+.modal-body{
+    background: #5D3D1D;
+    color: #FABE81;
+}
+
+.btn{
+    background: #5D3D1D;
+    border:solid 2px #9F7346;
+    color: #FABE81;
+
+}
+
+.btn:hover{
+    color: #FABE81;
+    background: #956637;
+    border:solid 2px #9F7346;
+    transition: background .3s;
+}
+
+.buttonale{
+    border: solid 2px;
+    padding: 6px;
+    background: #5D3D1D;
+    color: #FABE81;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    border-color: #9F7346;
+}
+
+.buttonale:hover{
+    color: #FABE81;
+    background: #956637;
+    border:solid 2px #9F7346;
+    transition: background .3s;
+}
+
+.buttonale:active{
+    color: white;
+    background: #FABE81;
+    border:solid 2px #9F7346;
+    transition: background .3s;
+}
+
+.btn:active{
+    color: white;
+    background: #FABE81;
+    border:solid 2px #9F7346;
+    transition: background .3s;
+}
+
+
+
+
+.buttonalee{
+    font-size: 20px;
+    border: solid 2px;
+    padding: 10px;
+    background: #5D3D1D;
+    color: #FABE81;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    border-color: #9F7346;
+}
+
+.buttonalee:hover{
+    color: #FABE81;
+    background: #956637;
+    border:solid 2px #9F7346;
+    transition: background .3s;
+}
+
+.buttonalee:active{
+    color: white;
+    background: #FABE81;
+    border:solid 2px #9F7346;
+    transition: background .3s;
+}
+
+footer{
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    background: #4D3216;
+    border-top: solid 3px #956637;
+    color: #956637;
+}
+
+footer h2 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+footer .foot1{
+    text-align: left;
+    width: 320px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+.foot1 ul li{
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.foot1 ul li a{
+    color: #956637;
+    width: 320px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.foot1 ul li a:hover{
+    color: #FABE81;
+    transition: color .3s;
+}
+
+footer .foot2{
+    width: 330px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+footer .foot2 ul li{
+    font-style: italic;
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+
+}
+
+.h2{
+    color: #956637;
+    margin-bottom: 20px;
+}
+p{
+    color: #956637;
+    margin: 1px;
+}
+
+.card-text{
+    margin-bottom: 5px;
+}
+
+
+.form-control{
+    border: solid 3px #9F7346;
+}
