@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
+    <title>HappyCandy</title>
+</head>
+<body>
+
+    <header>
+       
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-12">
+                    <img src="./images/Happy Candy (1).png" alt="Logo" class="img-fluid">
+                </div>
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#encomenda">Faça sua encomenda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#informacoes">Informações</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./cadastro.html">Cadastro</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <div class="container-fluid">
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/bem vindo.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Seja bem vindo!</h5>
+                  <p>Faça seu cadastro e ative as notificações para ficar por dentro das novidades!</p>
+                  <a href="./cadastro.html" class="main-btn">Cadastre-se</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/encomenda.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Faça sua encomenda</h5>
+                  <p>Escolha entre uma porção de doces deliciosos!</p>
+                  <a href="#encomenda" class="main-btn">Faça sua encomenda</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/pexels-valeria-boltneva-1028432.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="slide3">Deixe seu feedback</h5>
+                  <p class="slide3">Nos ajude a melhorar sua experiência em nosso site deixando seu feedback.</p>
+                  <a href="#feedback" class="main-btn">Deixe seu feedback</a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </div>
+
+    
+    <section class="sec1" id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h2>Sobre nós</h2>
+                    <p class="sobree">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vero doloribus veniam incidunt reprehenderit. Itaque, culpa? 
+                        Rerum, excepturi vero hic error aperiam voluptatibus qui ducimus cupiditate quod consequatur blanditiis aut.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Ex vero doloribus veniam incidunt reprehenderit. Itaque, culpa? Rerum, excepturi vero hic error aperiam voluptatibus qui ducimus cupiditate quod consequatur blanditiis aut.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <img class="imgsobre" src="./images/Happy Candy (2).png" alt="Sobre" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="encomenda">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2>Faça sua encomenda</h2>
+
+                    <div class="card">
+                        <img class="img1" src="./images/pexels-julias-torten-und-törtchen-1120464.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Cupcake</h5>
+                            <p class="card-text">Clique no botão abaixo para mais informações</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1" >ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="img1" src="./images/pexels-jill-wellington-3309658.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Brigadeiro</h5>
+                            <p class="card-text">Clique no botão abaixo para mais informações</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="img1" src="./images/pexels-leah-kelley-618918.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Maçã feliz</h5>
+                            <p class="card-text">Clique no botão abaixo para mais informações</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">ver produto</a>
+                        </div>
+                    </div>
+
+    </section>
+
+    <section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <div class="card">
+                        <img class="img1" src="./images/pexels-valeria-boltneva-1028432.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Picolé recheado</h5>
+                            <p class="card-text">Clique no botão abaixo para mais informações</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-4">ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="img1" src="./images/pexels-ric-rodrigues-1236522.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Doce de leite</h5>
+                            <p class="card-text">Clique no botão abaixo para mais informações</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-5">ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="img1" src="./images/pexels-francesco-ungaro-1761426.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Maçã do amor</h5>
+                            <p class="card-text">Clique no botão abaixo para mais informações</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-6">ver produto</a>
+                        </div>
+                    </div>
+
+                 </div>
+            </div>
+        </div>
+
+    </section>
+
+    
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cupcake</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira as unidades/valor</h6>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Unidades</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>5x</td>
+                                <td>R$ 20,00</td>
+                            </tr>
+                            <tr>
+                                <td>10x</td>
+                                <td>R$ 40,00</td>
+                            </tr>
+                            <tr>
+                                <td>20x</td>
+                                <td>R$ 80,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                
+                <div class="modal-footer">
+                   <button class="buttonale">Solicitar Encomenda</button>
+                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Brigadeiro d</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira as unidades/valor</h6>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Unidades</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>5x</td>
+                                <td>R$ 20,00</td>
+                            </tr>
+                            <tr>
+                                <td>10x</td>
+                                <td>R$ 40,00</td>
+                            </tr>
+                            <tr>
+                                <td>20x</td>
+                                <td>R$ 80,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                
+                <div class="modal-footer">
+                   <button class="buttonale">Solicitar Encomenda</button>
+                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Maçã feliz</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira as unidades/valor</h6>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Unidades</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>5x</td>
+                                <td>R$ 20,00</td>
+                            </tr>
+                            <tr>
+                                <td>10x</td>
+                                <td>R$ 40,00</td>
+                            </tr>
+                            <tr>
+                                <td>20x</td>
+                                <td>R$ 80,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                
+                <div class="modal-footer">
+                   <button class="buttonale">Solicitar Encomenda</button>
+                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <div class="modal fade" id="modal-4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Picolé recheado</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira as unidades/valor</h6>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Unidades</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>5x</td>
+                                <td>R$ 20,00</td>
+                            </tr>
+                            <tr>
+                                <td>10x</td>
+                                <td>R$ 40,00</td>
+                            </tr>
+                            <tr>
+                                <td>20x</td>
+                                <td>R$ 80,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                
+                <div class="modal-footer">
+                   <button class="buttonale">Solicitar Encomenda</button>
+                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-5">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Doce de leite</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira as unidades/valor</h6>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Unidades</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>5x</td>
+                                <td>R$ 20,00</td>
+                            </tr>
+                            <tr>
+                                <td>10x</td>
+                                <td>R$ 40,00</td>
+                            </tr>
+                            <tr>
+                                <td>20x</td>
+                                <td>R$ 80,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                
+                <div class="modal-footer">
+                   <button class="buttonale">Solicitar Encomenda</button>
+                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-6">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Maçã do amor</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira as unidades/valor</h6>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Unidades</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>5x</td>
+                                <td>R$ 20,00</td>
+                            </tr>
+                            <tr>
+                                <td>10x</td>
+                                <td>R$ 40,00</td>
+                            </tr>
+                            <tr>
+                                <td>20x</td>
+                                <td>R$ 80,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                
+                <div class="modal-footer">
+                   <button class="buttonale">Solicitar Encomenda</button>
+                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section id="feedback" class="sec2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Deixe seu Feedback e nos ajude a melhorar.</h2>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+                        
+
+                        <div class="input-group">
+                            
+                            <input class="form-control" type="text" name="nome" placeholder="Nome" required>
+                        </div>
+                            <div class="input-group">
+                    
+                            <input class="form-control" type="text" name="email" placeholder="Email" required>
+                        </div>
+
+                        <div clas="input-group">
+                            
+                            <textarea class="form-control" name="" id="" cols="10" rows="5"></textarea>
+
+                        </div>
+
+
+                        <button type="submit" class="buttonalee">Enviar</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foot1">
+            
+            <ul>            
+                <h2>Navegação</h2> 
+                <li><a href="#sobre">Sobre nós</a></li>
+                <li><a href="#encomenda">Faça sua encomenda</a></li>
+            </ul>
+        </div>
+        <div class="foot2">
+            
+            <ul>
+                <h2 id="informacoes">Informações</h2>             
+                <li><i>Email: happycandy@gmail.com</i></li>
+                <li><i>Telefone: (00)0 0000-000</i></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/72cbff92bd.js" crossorigin="anonymous"></script>
+    <script>var myCarousel = document.querySelector('#myCarousel')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+          interval: 3000,
+          wrap: false
+        })
+        </script>
+</body>
+</html>
